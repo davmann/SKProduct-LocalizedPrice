@@ -15,6 +15,9 @@ New property for SKProduct. Return localized.price as NSString with currency and
 * Use **product.localizedPrice** in your .m code.
 
 ### Example
+
+	#import "SKProduct+LocalizedPrice.h"
+	
 	
 	SKProduct *product;
 	
@@ -23,7 +26,7 @@ New property for SKProduct. Return localized.price as NSString with currency and
 	// ...
 	
 	// Get the localized price as NSString
-	NSString *string = [NSString stringWithFormat:@"%@\n%@", product.localizedTitle, product.localizedPrice];
+	NSString *string = [NSString stringWithFormat:@"%@ %@", product.localizedTitle, product.localizedPrice];
 
 
 
