@@ -1,5 +1,5 @@
 Pod::Spec.new do |spec|
-  spec.name         = 'SKProduct+LocalizedPrice'
+  spec.name         = 'SKProduct-LocalizedPrice'
   spec.version      = '0.0.1'
   #spec.license = { :type => 'MIT' }
   #spec.homepage     = 'https://github.com/AckeeCZ/ACKategories'
